@@ -1,4 +1,6 @@
-st =  [ "jesse", "james" ,"jose"]
+def main():
+  print_row(4)
 
-for i in range(len(st)):
-    print(f"{i+1}  {st[i]}")
+def print_row(width):
+  print("?" * width)
+main()

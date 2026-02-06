@@ -1,0 +1,5 @@
+while True:
+    print("Hello")
+    x = input("Enter a number: ")
+    print(x)
+2
